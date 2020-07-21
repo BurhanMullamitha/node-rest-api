@@ -111,7 +111,7 @@ router.delete('/:productId', (req, res, next) => {
                 message: 'Product deleted',
                 request: {
                     type: 'POST',
-                    url: 'http:localhost:3000/products',
+                    url: 'http://localhost:3000/products',
                     body: {
                         name: 'String',
                         price: 'Number'
